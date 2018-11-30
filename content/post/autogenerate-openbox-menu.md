@@ -15,6 +15,7 @@ reward: true
 mathjax: false
 ---
 
+## Introduction
 With regard to Openbox Menus,
 there are two types: static menus and dynamic menus.
 Dynamic menus also well known as pipe menu.
@@ -105,3 +106,5 @@ openbox --reconfigure
 ```
 [![openbox-menu.png](https://u.cubeupload.com/addy15/openboxmenu.png)]
 (https://u.cubeupload.com/addy15/openboxmenu.png)
+
+Thanks for reading!

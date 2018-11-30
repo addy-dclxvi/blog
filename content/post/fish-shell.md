@@ -1,5 +1,5 @@
 ---
-title: "Fish, The Friendly Interactive Shell. You Should Try It!"
+title: "Fish, The Friendly Interactive Shell"
 date: 2018-11-30T18:16:14+07:00
 lastmod: 2018-11-30T18:16:14+07:00
 draft: false
@@ -15,6 +15,7 @@ reward: true
 mathjax: false
 ---
 
+## Introduction
 Most of GNU/Linux distros use bash as the default shell.
 But there are many aftermarket alternative of cli shell for it.
 And my favourite is fish, the friendly interactive shell.
@@ -36,6 +37,7 @@ Like in web browser or file manager.
 - **And many others**. I replace oh-my-zsh with fish because it provides every feature I need
 from oh-my-zsh but still minimal & no need to install additional plugin.
 
+## Installation
 Fish is available on most ditros official repository. I personally use Debian,
 so the command to install it is
 ```Shell
@@ -46,9 +48,12 @@ Then set is as the default shell
 sudo chsh -s /usr/bin/fish
 ```
 After you launch a new shell session or open a new terminal, the default shell for your user
-will be fish. Maybe logout & login again is needed. Fish is pretty usable out of the box,
-but it looks ugly. So, we need to configure it first. The fish configuration is stored in
-**~/.config/fish/functions/fish_prompt.fish**.
+will be fish. Maybe logout & login again is needed.
+
+## Configurations
+Fish is pretty usable out of the box,
+but it looks ugly. So, we need to configure it first. The fish configuration file
+is stored in **~/.config/fish/functions/fish_prompt.fish**.
 In case you wonder with my fish configuration, here is it.
 Beside eye candy, I also add more functionality. Like some useful alias,
 hightlight the background selection when cycling it with Tab button
