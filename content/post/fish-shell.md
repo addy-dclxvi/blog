@@ -21,16 +21,18 @@ And my favourite is fish, the friendly interactive shell.
 My favourite features of fish are..
 
 - **Command suggestion**, usually based on history. Hit right arrow or Ctrl+F to complete it.
-{{< figure src="http://u.cubeupload.com/addy15/suggestion.png" >}}
+{{< figure src="https://u.cubeupload.com/addy15/suggestion.png" >}}
 - **Tab autocompletion**, type several letter then hit Tab several times to see the options.
 Hit enter to choose it.
-{{< figure src="http://u.cubeupload.com/addy15/tab.png" >}}
+{{< figure src="https://u.cubeupload.com/addy15/tab.png" >}}
 - **Syntax highlighting**.
-{{< figure src="http://u.cubeupload.com/addy15/syntax.png" >}}
-- **Error telling**, which part is containing an error.
-{{< figure src="http://u.cubeupload.com/addy15/tell.png" >}}
+{{< figure src="https://u.cubeupload.com/addy15/syntax.png" >}}
+- **Error telling**, part which containing any error will be pointed.
+{{< figure src="https://u.cubeupload.com/addy15/tell.png" >}}
 - **Wildcard anywhere**, but this is a double edge sword. Sometimes my literal question-mark
-is treaten as wildcard. So, I need to put the quote.
+is treaten as wildcard. So, I need to put a couple quote.
+- **Alt Navigation**, hit Alt+Left/Right to go to previous/next directory.
+Like in web browser or file manager.
 - **And many others**. I replace oh-my-zsh with fish because it provides every feature I need
 from oh-my-zsh but still minimal & no need to install additional plugin.
 

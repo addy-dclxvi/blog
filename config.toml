@@ -14,8 +14,8 @@ hasCJKLanguage = true # has chinese/japanese/korean ?
 paginate = 5 # Number of articles displayed on the homepage 
 rssLimit = 20 # Limit Entry Count to Rss file
 disqusShortname = "addy15" # disqus_shortname
-googleAnalytics = "" # UA-XXXXXXXX-X
-# google_verification = "" # Google_Verification 
+googleAnalytics = "UA-130181389-1" # UA-XXXXXXXX-X
+google_verification = "iiMOqsIxcKs1IlYlvf8WXHBCkDMc9gRUKdLjRQwt8Go" # Google_Verification 
 copyright = "Addy" # default: author.name
 
 # Highlight options.
