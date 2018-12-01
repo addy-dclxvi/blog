@@ -19,11 +19,12 @@ mathjax: false
 URxvt is a customizable terminal emulator forked from rxvt.
 Features of rxvt-unicode include international language support through Unicode,
 transparency, the ability to display multiple font types and support for Perl extensions.
-URxvt is one of the most popular terminal emulator in UNIX world.
+URxvt is one of the most popular terminal emulator in UNIX world, especially on Unixporn.
 It's well known for being lightweight and riceable.
-But just like any other software in Linux, it's ugly out of the box.
-URxvt configurations is commonly placed in **~/.Xresources**.
-We will edit it. But now we need to install it first.
+But just like any other software in UNIX world, it's ugly out of the box.
+So, we should configure it before we use it.
+URxvt configurations is commonly placed in **~/.Xresources** file.
+We will edit it. But first, we need to install it first.
 
 ## Installation
 I use Debian, so..
@@ -31,8 +32,8 @@ I use Debian, so..
 sudo apt-get install rxvt-unicode xsel
 ```
 
-rxvt-unicode is the package name of URxvt.
-And xsel is a clipboard manager, I install it because URxvt is not shipped by
+**rxvt-unicode** is the package name of URxvt.
+And **xsel** is a clipboard manager, I install it because URxvt is not shipped with
 copy paste by default. We will combine it with a Perl extension to send marked text to xsel.
 You can get it from Muennich's [urxvt-perls](https://github.com/muennich/urxvt-perls) repository.
 Some extensions marked as deprecated, but it still works for me without any issue.
@@ -41,7 +42,8 @@ Some extensions marked as deprecated, but it still works for me without any issu
 git clone https://github.com/muennich/urxvt-perls
 ```
 
-Enter the urxvt-perls folder, then copy **keyboard-select**, **clipboard**, and **url-select**
+Enter the  urxvt-perls folder,
+then copy **keyboard-select**, **clipboard**, and **url-select**
 to **~/.urxvt/ext**
 
 {{< figure src="https://u.cubeupload.com/addy15/urxvtext.png" >}}
@@ -52,7 +54,7 @@ Colorscheme is one of most important part of terminal customization.
 URxvt uses base16 style colorscheme. It stores background color, foreground color,
 cursor color, black, red, green, yellow, blue, magenta, cyan, and white.
 Actually it could store more color for bold, underline, and many others.
-But I let it default, it will take color from other stored colors automatically.
+But I let it to be default, it will take color from other stored colors automatically.
 
 {{< highlight ".Xresources" "linenos=table, linenostart=1" >}}
 !! Colorscheme
@@ -99,7 +101,7 @@ But I let it default, it will take color from other stored colors automatically.
 It's my selfmade colorscheme, not very good.
 You can do some experiment with colorscheme by yourself later.
 Or maybe you could visit https://terminal.sexy to get some colorscheme examples.
-Then, we configure the appearance.
+But now, we need to configure the appearance first.
 
 {{< highlight ".Xresources" "linenos=table, linenostart=40" >}}
 !! URxvt Appearance
@@ -122,10 +124,12 @@ URxvt.iso14755: false
 
 {{< / highlight >}}
 
-URxvt has an ability to load XLFD for bitmap font.
+URxvt has an ability to load
+[XLFD](https://en.wikipedia.org/wiki/X_logical_font_description) for bitmap font.
 It's my selfmade font by the way, and I haven't uploaded it.
 So, please replace `-*-rissole-*` with other font.
-Maybe with Iosevka font. It's beautiful and currently rising in popularity.
+Maybe with [Iosevka](https://github.com/be5invis/Iosevka) font.
+It's beautiful and currently rising in popularity.
 Iosevka is an xft font. So, the configuration syntax like this..
 
 {{< highlight ".Xresources" "linenos=table, linenostart=41" >}}
@@ -149,13 +153,16 @@ Geometry handles the URxvt size on launch. InternalBorder handles the terminal p
 for aesthetic reason. But don't set the paddings too much, we should care about usability too.
 CursorBlink true makes the cursor blinking, for visibility reason.
 CursorUnderline makes the block cursor became an underline, but I set it to false for now.
-The underline on this version of URxvt is too thin, and nearly invisible.
-It also vanishes on full-pipe character. But they have been fixed on newer version of URxvt.
-UrgentOnBell makes URxvt to be able to send need-an-attention signal to window manager / taskbar.
+The underline on this version of URxvt is too thin (I'm still using the old version
+because I'm on Debian Jessie), and nearly invisible.
+It also vanishes on full-pipe character.
+But those problems have been fixed on the newer version of URxvt.
+UrgentOnBell makes URxvt to be able to send *need-an-attention* signal
+to window manager / taskbar.
 Depth: 24 makes URxvt couldn't use true transparency, because I don't need it.
 You could change it to Depth: 32 to enable true transparency support.
 Iso14755: false to disable the annoying warning about Iso type.
-Now we configure some keybind those are not available on URxvt by default
+Now let's configure some keybinds those are not available on URxvt by default,
 but I can't live without.
 
 {{< highlight ".Xresources" "linenos=table, linenostart=58" >}}
@@ -196,7 +203,7 @@ URxvt.urlButton: 1
 Remember the Perl Extensions we copied before?
 Now it's the time to load them and make keybinds to call them.
 **M** means meta, or in these modern days called **Alt**.
-To copy a text in the terminal, mark them using mouse then hit **Alt+C**.
+To copy some text in the terminal, mark them using mouse then hit **Alt+C**.
 To paste it on URxvt, hit **Alt+V**.
 But if you paste it on other app, just use **Ctrl+V** normally.
 That Perl Extension also contains other useful features.

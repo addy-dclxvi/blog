@@ -19,7 +19,7 @@ mathjax: false
 Most of GNU/Linux distros use bash as the default shell.
 But there are many aftermarket alternative of cli shell for it.
 And my favourite is fish, the friendly interactive shell.
-My favourite features of fish are..
+Some of my favourite features of fish are..
 
 - **Command suggestion**, usually based on history. Hit right arrow or Ctrl+F to complete it.
 {{< figure src="https://u.cubeupload.com/addy15/suggestion.png" >}}
@@ -28,7 +28,7 @@ Hit enter to choose it.
 {{< figure src="https://u.cubeupload.com/addy15/tab.png" >}}
 - **Syntax highlighting**.
 {{< figure src="https://u.cubeupload.com/addy15/syntax.png" >}}
-- **Error telling**, part which containing any error will be pointed.
+- **Error telling**, the part which containing any error will be pointed with caret symbol.
 {{< figure src="https://u.cubeupload.com/addy15/tell.png" >}}
 - **Wildcard anywhere**, but this is a double edge sword. Sometimes my literal question-mark
 is treaten as wildcard. So, I need to put a couple quote.
@@ -140,5 +140,19 @@ On the left shell prompt, I only put current working directory.
 I dont need username and host information, because I only use this machine locally
 & only have one user. On the right shell prompt I add clock to measure
 how long a command is executed. I set the hightlight of command that's not available
-in the system to yellow to avoid typo. Maybe my fish configuration is not suitable for you.
-So, I recommend you to modify it to make it suit with your taste. Thanks for reading!
+in the system (which means error) to yellow to avoid typo.
+Maybe my fish configuration is not suitable for you.
+So, I recommend you to modify it to make it suit with your taste.
+
+## Note
+Fish is not POSIX compliance like bash, zsh, or dash.
+And I'm too lazy too learn fish scripting.
+So, I'm still using bash as scripting shell.
+To make my shell scripts interpreted by bash instead of fish,
+I always add `#!/bin/bash` on the line number one in every script.
+But no need to worry, almost every shell script you get from the internet
+are always shipped with *shebang* by default.
+
+{{< figure src="https://u.cubeupload.com/addy15/shebang.png" >}}
+
+Thanks for reading!
