@@ -104,7 +104,7 @@ frame_color = "#ff7043"
 Geometry is the size of the notification. 300x60-20+48 means, my notification box has 300px width
 & 60px height, placed on the right-top of the screen with 20px margin from the right & 48px margin
 from the top. Negative value in -20 means it's drawed on the right. If you change the value to
-positive, the notification box would be drawed on the left of the screen. The positive value on
+positive, the notification box would be drawed on the left of the screen. The positive value
 in +48 means it's drawed on the top. If you change the value to negative, the notification box
 would be drawed on the bottom of the screen.
 Padding is the margin between the text and the box outline. Frame width is how thick your

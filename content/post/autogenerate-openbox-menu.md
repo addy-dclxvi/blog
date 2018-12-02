@@ -25,14 +25,14 @@ I use Debian by the way. So some command line in this article, like how to insta
 will use Debian way. But don't worry, it should be working in other distros too.
 But will slightly different.
 
-## Install Openbox Menu & LXMenu Data
+## Installaltion
 Openbox Menu and LXMenu Data are available in the Debian repository since Jessie.
 So, we don't need to compile it manually. Just get it using APT.
 ```shell
 sudo apt-get install openbox-menu lxmenu-data
 ```
 
-## Edit Menu XML
+## Applying
 Now we need to edit the menu.xml to place the applications menu taken from lxmenu-data.
 Paste the following code anywhere you want between `<menu id="root-menu" label="Openbox 3">`
 and `</menu>`.

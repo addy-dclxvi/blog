@@ -33,7 +33,7 @@ Hit enter to choose it.
 - **Wildcard anywhere**, but this is a double edge sword. Sometimes my literal question-mark
 is treaten as wildcard. So, I need to put a couple quote.
 - **Alt Navigation**, hit Alt+Left/Right to go to previous/next directory.
-Like in web browser or file manager.
+Like in the web browser or file manager.
 - **And many others**. I replace oh-my-zsh with fish because it provides every feature I need
 from oh-my-zsh but still minimal & no need to install additional plugin.
 

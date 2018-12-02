@@ -111,8 +111,8 @@ ncmpcpp configuration is placed in **~/.ncmpcpp/config** file.
 I tried to paste the code to this page, but the syntax was conflicted with
 [Hugo Shortcodes](https://gohugo.io/content-management/shortcodes/).
 So, get the text file [here](/file/ncmpcpp/config). The square brackets are *comments*,
-just like *\#* symbol. Just personal preference.
-The explanations of my ncmpcpp config would be very long if write them all here.
+just like *\#* symbol. Just a matter of personal preference.
+The explanations of my ncmpcpp config would be very long if wrote them all here.
 The config is very rational, it's very easy to be understood only by reading it.
 But if you need more detailed explanations, it's available inside the manual pages.
 Use `man ncmpcpp` command to open it.
