@@ -306,5 +306,3 @@ And the change of URxvt will be applied on next launch.
 {{% /notice %}}
 
 Thanks for reading!
-
-{{< gallery >}}

@@ -107,5 +107,3 @@ openbox --reconfigure
 {{< figure src="https://u.cubeupload.com/addy15/openboxmenu.png" >}}
 
 Thanks for reading!
-
-{{< gallery >}}

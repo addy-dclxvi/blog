@@ -156,5 +156,3 @@ are always shipped with *shebang* by default.
 {{< figure src="https://u.cubeupload.com/addy15/shebang.png" >}}
 
 Thanks for reading!
-
-{{< gallery >}}
