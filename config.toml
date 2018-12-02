@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://addy-dclxvi.github.io/"
-#baseURL = "https://localhost:1313/"
+# baseURL = "https://localhost:1313/"
 publishDir = "public"
 title = "Addy's Blog"
 enableRobotsTXT = true
@@ -15,7 +15,7 @@ paginate = 5 # Number of articles displayed on the homepage
 rssLimit = 20 # Limit Entry Count to Rss file
 disqusShortname = "addy15" # disqus_shortname
 googleAnalytics = "UA-130181389-1" # UA-XXXXXXXX-X
-google_verification = "iiMOqsIxcKs1IlYlvf8WXHBCkDMc9gRUKdLjRQwt8Go" # Google_Verification 
+# google_verification = "iiMOqsIxcKs1IlYlvf8WXHBCkDMc9gRUKdLjRQwt8Go" # Google_Verification 
 copyright = "Addy" # default: author.name
 
 # Highlight options.
@@ -79,7 +79,7 @@ defaultContentLanguage = "en" # Default language to use
   # front matter archetypes/default.md
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
   toc = false
-  photoswipe = false # see https://github.com/dimsemenov/PhotoSwipe
+  photoswipe = true # see https://github.com/dimsemenov/PhotoSwipe
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   # Link custom CSS and JS assets

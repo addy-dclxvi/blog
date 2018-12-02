@@ -184,3 +184,5 @@ ncmpcpp has a lot other keybinds. Just read the manual pages to discover them.
 {{% /notice %}}
 
 And as always.. Thanks for reading!
+
+{{< gallery >}}

@@ -104,7 +104,8 @@ Reconfigure Openbox then see the result
 ```shell
 openbox --reconfigure
 ```
-[![openbox-menu.png](https://u.cubeupload.com/addy15/openboxmenu.png)]
-(https://u.cubeupload.com/addy15/openboxmenu.png)
+{{< figure src="https://u.cubeupload.com/addy15/openboxmenu.png" >}}
 
 Thanks for reading!
+
+{{< gallery >}}
