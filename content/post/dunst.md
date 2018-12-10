@@ -1,7 +1,7 @@
 ---
 title: "Dunst, A Simple And Lightweight Notification Daemon"
 date: 2018-12-02T13:19:24+07:00
-lastmod: 2018-12-02T13:19:24+07:00
+lastmod: 2018-12-10T13:18:38+07:00
 draft: false
 keywords: ["linux", "ricing", "dunst", "notification", "minimal"]
 description: "A guide about how to install and configuring Dunst, the minimal notification"
@@ -21,7 +21,7 @@ provided by most desktop environments. It’s very customizable, isn’t depende
 and therefore fits into those window manager centric setups we all love to customize to perfection.
 
 When I installed Debian, I start from minimal install. So, I don't have any notification by
-default. Then I choose dunst. If you already other notification daemon and want to try Dunst,
+default. Then I choose dunst. If you already have other notification daemon and want to try Dunst,
 Just simply add Dunst to your autostart. The default notification daemon should be overriden
 by Dunst.
 
@@ -42,7 +42,7 @@ notify-send "Notification Title" "Notification Messages"
 {{< figure src="https://u.cubeupload.com/addy15/dunsttest.png" >}}
 
 Of course the default look doesn't look like that. It needs to be configured first.
-Here is my configurations. It's placed in **~/config/dunst/dunstrc**
+Here is my configurations. It's placed in **~./config/dunst/dunstrc**
 
 {{< highlight rc "linenos=table" >}}
 [global]
@@ -111,10 +111,15 @@ Padding is the margin between the text and the box outline. Frame width is how t
 notification box outline. But I use Debian Jessie now, the Dunst version is too old and hasn't
 been supporting frame yet. I will upgrade my Debian Jessie setup to Stretch soon.
 The font I use in the configurations above is selfmade and I haven't uploaded it yet. So please
-change it with a font you have. `format = %s\n%b**`, %s means summary (the title of the
+change it with a font you have. `format = %s\n%b`, %s means summary (the title of the
 notification), and %b means body (the messages of the notification). `\n` is linebreak,
 without it, your notification messages would be drawed on the right side of the title.
 The format could be improved with markup. For example, make the title bold.
+
+{{% notice note "Update 10 December 2018" %}}
+I have uploaded my selfmade bitmap font and write the description in
+[this post](/post/bitmap-fonts/)
+{{% /notice %}}
 
 {{< highlight rc "linenos=table, linenostart=16" >}}
 format = "<b>%s</b>\n%b"

@@ -1,5 +1,5 @@
 ---
-title: "Automatically Generate Openbox Applications Menu Using LXMenu Data"
+title: "Automatically Generate Openbox Applications Menu"
 date: 2018-11-27T18:44:21+07:00
 lastmod: 2018-11-27T18:44:21+07:00
 draft: false

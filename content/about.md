@@ -3,11 +3,18 @@ title: "About"
 date: 2018-11-26
 lastmod: 2018-11-26
 menu: "main"
+keyword: "Addy's profile"
+description: "My short profile just in case you are wonder about who am I"
+tags: ["profile"]
 weight: 50
 comment: true
 mathjax: false
+reward: true
 ---
 
+{{< figure src="/image/me-small.png" link="/image/me.png" >}}
+
+## Introduction
 Hi! I'm Addy
 
 Just a student, a worker, and a Linux Enthusiast.
@@ -19,7 +26,7 @@ Favourite movie director, Christopher Nolan. Favourite book, A Study in Scarlet.
 Favourite anime, Fullmetal Alchemist. Favourite album, Metropolis Part 2 :
 Scenes from a Memory. Favourite window manager, Openbox.
 
-# Interest
+## Interest
 - **Movies** Fight Club, Inception, The Dark Knight, Se7en, The Prestige,
 Lord of The Rings, Star Wars, The Matrix, Suckseed, Beck, Enter Nowhere,
 V for Vendetta, Shutter Island, The Shawshank Redemption, Inside Man,
@@ -38,8 +45,8 @@ And There Were None, The Adventures of Sherlock Holmes, The Memoirs of Sherlock 
 The Return of Sherlock Holmes, His Last Bow, The Case Book of Sherlock Holmes,
 *etc* *etc*
 - **Albums** Metropolis Part 2: Scenes from a Memory, Octavarium, Train of Thought,
-Nevermind, Images and Words, Sonic Firetorm, Six Degrees of Inner Turbunlence, Blackwater Park,
-Black Clouds and Silver Linings, The Black Album, Systematic Chaos, Colors,
+Nevermind, Images And Words, Sonic Firetorm, Six Degrees of Inner Turbunlence, Blackwater Park,
+Black Clouds And Silver Linings, The Black Album, Systematic Chaos, Colors,
 Kisah Klasik, 7 Des, 507, Sheila on 7 (1999), Bad Bad Bad, Black Market Love, Kuta Rock City,
 ..And Justice for All, Ten, Californication, Dream Theater (2013), The Hangover Decade,
 So Long And Thanks for All The Shoes, Ride The Lightning, Ok Computer, Absolution,
@@ -51,6 +58,8 @@ Rocker Juga Manusia, Dramatic Turn of Events, *etc* *etc*
 - **TV Shows** Sherlock, Cosmos: A Spacetime Odyssey, Rick And Morty, Mr.Robot,
 Avatar: The Last Airbender, *etc* *etc*
 
+## Disclaimer
+Despite of my GitHub username is **dclxvi**, I'm not a satanic
 
 # Friend Site
 - [aflasio](https://aflasio.com/)

@@ -7,6 +7,11 @@ html {
   font-size: 16px !important;
 }
 
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  font-size: 32px !important;
+}
+
 h2 {
   font-family: 'PT Sans Narrow', sans-serif !important;
   font-size: 28px !important;
@@ -50,6 +55,9 @@ body {
   font-size: 38px !important;
 }
 
+.post .post-toc .post-toc-title {
+  font-size: 1.2em !important;
+}
 .post .post-content .read-more .read-more-link {
   font-family: 'PT Sans Narrow', sans-serif !important;
   font-size: 18px !important;

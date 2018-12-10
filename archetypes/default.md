@@ -15,4 +15,3 @@ reward: true
 mathjax: false
 ---
 
-<!--more-->
