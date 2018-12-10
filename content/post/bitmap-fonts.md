@@ -1,7 +1,7 @@
 ---
 title: "Several Bitmap Fonts I Made"
 date: 2018-12-06T20:56:34+07:00
-lastmod: 2018-12-06T20:56:34+07:00
+lastmod: 2018-12-10T19:25:34+07:00
 draft: false
 keywords: ["linux", "ricing", "font", "aesthetic", "openbox", "readable" ]
 description: "Several bitmap fonts I made including iconic bitmap font and guide how to use it"
@@ -18,12 +18,12 @@ mathjax: false
 ## Introduction
 This is a post about my selfmade bitmap fonts. I made several bitmap fonts including one
 iconic bitmap font, suitable for statusbar. At first I made them because I can't find any
-bitmap font that suitable for my personal prefernces.
+bitmap font that suitable for my personal preferences.
 
-- I want a small bitmap font that can fit in 6x10 bounding box, but placed in 6x12 bounding
+- I want a small bitmap font that can fit in 6x10 bounding box, but placed inside 6x12 bounding
 box for extra line spacing. I want extra line spacing for readability reason. I know I can
 add line spacing in URxvt configuration. But I want to use it not only in URxvt.
-- Has less curve, to make it looks less pixelated and comfortable for my eyes. But when I find
+- Has less curve, to make it looks less pixelated and comfortable for my eyes. But when I find a
 font that has less curve, it usually too boxy.
 - Double storey "a".
 - Slashed zero, I don't want dotted zero.
@@ -41,7 +41,7 @@ font that has less curve, it usually too boxy.
 
 Every bitmap font I tried can't fully satisfy me. It must be something lack. Then I tried
 to install & launch FontForge. But I didn't know what to do with it. So, I tried to open M+
-bitmap font then use it as the base. I kept modifying the characters until it could satisfy me.
+bitmap font then used it as the base. I kept modifying the characters until it could satisfy me.
 And it was harder than I thought. I needed a lot of trials of modification & use.
 If when I was using it I felt something not right, I launched FontForge again and modify
 something. I kept repeating it until several weeks (I couldn't fix them in one night, I have
@@ -245,22 +245,23 @@ But because I use different name for every font, we could wildcard it
 ```
 
 - URxvt example
+(My full URxvt configuration is in [this post](/post/configuring-urxvt))
 
-```Xresources
+{{< highlight Xresources "linenostart=41" >}}
 URxvt.font: -*-rissole-*
 URxvt.boldFont: -*-rissole-*
 URxvt.italicFont: -*-rissole-*
 URxvt.boldItalicfont: -*-rissole-*
-```
+{{< /highlight >}}
 
 - URxvt example with fallback and style
 
-```Xresources
+{{< highlight Xresources "linenostart=41" >}}
 URxvt.font: -*-rissole-*, -*-sundae-*
 URxvt.boldFont: -*-pretzel-*
 URxvt.italicFont: -*-rissole-*, -*-sundae-*
 URxvt.boldItalicfont: -*-pretzel-*
-```
+{{< /highlight >}}
 
 - Other apps those support XLFD : Lemonbar, Fluxbox Style, i3 if Pango disabled, Dzen2, Conky,
 Spectrbar, dmenu, *etc* *etc*
@@ -398,10 +399,11 @@ fc-cache -fv
 Now you can use Rissole font on app that don't support XLFD, for example..
 
 - Dunst
+(My full Dunst configuration is in [this post](/post/dunst))
 
-```dunstrc
+{{< highlight dunstrc "linenostart=13" >}}
 font = rissole 8
-```
+{{< /highlight >}}
 
 - Openbox
 
