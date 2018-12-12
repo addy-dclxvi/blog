@@ -1,10 +1,10 @@
 ---
-title: "Several Bitmap Fonts I Made"
+title: "Several Custom Bitmap Fonts"
 date: 2018-12-06T20:56:34+07:00
 lastmod: 2018-12-10T19:25:34+07:00
 draft: false
 keywords: ["linux", "ricing", "font", "aesthetic", "openbox", "readable" ]
-description: "Several bitmap fonts I made including iconic bitmap font and guide how to use it"
+description: "Several bitmap fonts I modify from M+, Tewi, Lemon, &  Siji, and guide how to use it"
 tags: ["linux", "ricing", "font"]
 categories: ["Linux"]
 author: "Addy"
@@ -16,9 +16,9 @@ mathjax: false
 ---
 
 ## Introduction
-This is a post about my selfmade bitmap fonts. I made several bitmap fonts including one
-iconic bitmap font, suitable for statusbar. At first I made them because I can't find any
-bitmap font that suitable for my personal preferences.
+This is a post about several bitmap fonts I modify from M+, Tewi, Lemon, & Siji.
+At first I modify them because I can't find any bitmap font that suitable for my personal
+preferences.
 
 - I want a small bitmap font that can fit in 6x10 bounding box, but placed inside 6x12 bounding
 box for extra line spacing. I want extra line spacing for readability reason. I know I can
@@ -83,6 +83,7 @@ called Canele. Both are based on M+.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso8859 Latin
+- **Base** M+
 
 ### Canele
 
@@ -97,6 +98,7 @@ Pretty similar with Rissole, but this font contains more pixels.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso8859 Latin
+- **Base** M+
 
 ### Castella
 
@@ -112,6 +114,7 @@ So, the linespacing remains tall. But apparently creating a tall font is not a g
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso8859 Latin
+- **Base** M+
 
 ### Mochi
 
@@ -139,6 +142,7 @@ don't want to break my healthy eyes, so I abandoned this font.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso10646
+- **Base** Lemon
 
 ### Tiramisu
 
@@ -153,6 +157,7 @@ This is just taller version of Mochi, and I just make it even worse.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso10646
+- **Base** Lemon
 
 ### Sundae
 
@@ -171,6 +176,7 @@ but also want powerline in URxvt, you can use this font as fallback.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso10646
+- **Base** Tewi
 
 ### Pretzel
 
@@ -186,6 +192,7 @@ still Rissole, Canele, or Sundae. This font also heavily based on Tewi.
 - **Ascend** 10px
 - **Descend** 2px
 - **Encoding** iso10646
+- **Base** Tewi
 
 ### Waffle
 
@@ -205,10 +212,11 @@ added 155 self-drawn glyphes.
 - **Ascend** 8px
 - **Descend** 2px
 - **Encoding** iso10646
+- **Base** Siji
 
 {{% notice info %}} 
-I usually copying iconic font using Gucharmap. Launch Gucharmap **>** Change font to waffle **>** In
-the "View" menu check "Show only glyph from this font" **>** Change the script to Common **>**
+I usually copying iconic font using Gucharmap. Launch Gucharmap **>** Change font to waffle **>**
+In the "View" menu check "Show only glyph from this font" **>** Change the script to Common **>**
 Repeatly hit PageDown in glyph list, the glyph is started from U+E000 area. And they are copyable.
 {{% /notice %}}
 
