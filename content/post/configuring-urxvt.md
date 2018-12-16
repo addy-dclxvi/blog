@@ -126,7 +126,7 @@ URxvt.iso14755: false
 
 URxvt has an ability to load
 [XLFD](https://en.wikipedia.org/wiki/X_logical_font_description) for bitmap font.
-It's my selfmade font by the way, and I haven't uploaded it.
+It's a custom font by the way, and I haven't uploaded it.
 So, please replace `-*-rissole-*` with other font.
 Maybe with [Iosevka](https://github.com/be5invis/Iosevka) font.
 It's beautiful and currently rising in popularity.
@@ -142,7 +142,7 @@ Iosevka is an xft font. So, the configuration syntax like this..
 {{< / highlight >}}
 
 {{% notice note "Update 10 December 2018" %}} 
-I have uploaded my selfmade bitmap font and write the description in
+I have uploaded the fonts and write the description in
 [this post](/post/bitmap-fonts/)
 {{% /notice %}}
 

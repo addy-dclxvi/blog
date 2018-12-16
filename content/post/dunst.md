@@ -110,14 +110,14 @@ would be drawed on the bottom of the screen.
 Padding is the margin between the text and the box outline. Frame width is how thick your
 notification box outline. But I use Debian Jessie now, the Dunst version is too old and hasn't
 been supporting frame yet. I will upgrade my Debian Jessie setup to Stretch soon.
-The font I use in the configurations above is selfmade and I haven't uploaded it yet. So please
+The font I use in the configurations above is custom and I haven't uploaded it yet. So please
 change it with a font you have. `format = %s\n%b`, %s means summary (the title of the
 notification), and %b means body (the messages of the notification). `\n` is linebreak,
 without it, your notification messages would be drawed on the right side of the title.
 The format could be improved with markup. For example, make the title bold.
 
 {{% notice note "Update 10 December 2018" %}}
-I have uploaded my selfmade bitmap font and write the description in
+I have uploaded the fonts and write the description in
 [this post](/post/bitmap-fonts/)
 {{% /notice %}}
 
