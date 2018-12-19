@@ -15,7 +15,7 @@ reward: true
 mathjax: false
 ---
 
-## Intruduction
+## Introduction
 This post is an explanation about my Fluxbox configurations and how to use them. Fluxbox is my second
 window manager after Openbox. They are pretty similar because both are derived from Blackbox window
 manager. Some differences between Openbox and Fluxbox are..
@@ -55,10 +55,10 @@ fonts would look rasterized in some applications.
 
 Then, get my Fluxbox configurations from [this](/file/fluxbox.tar.gz) archive. Extract it to your
 home directory. So, you will get the **.fluxbox** and other directories in your home.
-I use URxvt as default terminal. If you interested, check [this](/post/configuring-urxvt/) article.
-I use Dunst as notification daemon. If you interested, check [this](/post/dunst/) article.
-I use ncmpcpp as music player. If you interested, check [this](/post/configuring-ncmpcpp/) article.
-I use Fish as interactive shell. If you interested, check [this](/post/fish-shell/) article.
+I use URxvt as default terminal. If you're interested, check [this](/post/configuring-urxvt/) article.
+I use Dunst as notification daemon. If you're interested, check [this](/post/dunst/) article.
+I use ncmpcpp as music player. If you're interested, check [this](/post/configuring-ncmpcpp/) article.
+I use Fish as interactive shell. If you're interested, check [this](/post/fish-shell/) article.
 
 ## Explanations
 
