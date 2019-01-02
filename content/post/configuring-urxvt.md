@@ -27,14 +27,14 @@ URxvt configurations is commonly placed in **~/.Xresources** file.
 We will edit it. But first, we need to install it first.
 
 ## Installation
-I use Debian, so..
+I use Debian, so the command to install it is:
 ```shell
 sudo apt-get install rxvt-unicode xsel
 ```
 
 **rxvt-unicode** is the package name of URxvt.
 And **xsel** is a clipboard manager, I install it because URxvt is not shipped with
-copy paste by default. We will combine it with a Perl extension to send marked text to xsel.
+copy paste by default. We will combine it with a Perl extension to send the marked text to xsel.
 You can get it from Muennich's [urxvt-perls](https://github.com/muennich/urxvt-perls) repository.
 Some extensions marked as deprecated, but it still works for me without any issue.
 
@@ -50,6 +50,7 @@ to **~/.urxvt/ext**
 
 ## Configurations
 Now create a file called **~/.Xresources**. Then open it using your favourite text editor.
+In the several first lines, I put the terminal colorscheme.
 Colorscheme is one of most important part of terminal customization.
 URxvt uses base16 style colorscheme. It stores background color, foreground color,
 cursor color, black, red, green, yellow, blue, magenta, cyan, and white.
@@ -152,7 +153,7 @@ You can get the xft name using `fc-list` command.
 fc-list | grep "Iosevka"
 ```
 
-Replace Iosevka with other font name you want. Letterspace variable handles the space
+Replace Iosevka with the other font name you want. Letterspace variable handles the space
 between characters. Linespace variable handles the linespacing between characters vertically.
 Geometry handles the URxvt size on launch. InternalBorder handles the terminal paddings,
 for aesthetic reason. But don't set the paddings too much, we should care about usability too.
@@ -209,8 +210,8 @@ Remember the Perl Extensions we copied before?
 Now it's the time to load them and make keybinds to call them.
 **M** means meta, or in these modern days called **Alt**.
 To copy some text in the terminal, mark them using mouse then hit **Alt+C**.
-To paste it on URxvt, hit **Alt+V**.
-But if you paste it on other app, just use **Ctrl+V** normally.
+To paste it to URxvt, hit **Alt+V**.
+But if you want to paste it on the other app, just use **Ctrl+V** normally.
 That Perl Extension also contains other useful features.
 Like select URL in terminal by pressing **Alt+U**, then use arrow keys if there are
 more than one URL in current buffer. Then hit **Enter** to launch the selected URL in Firefox.

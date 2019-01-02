@@ -16,10 +16,10 @@ mathjax: false
 ---
 
 ## Introduction
-Most of GNU/Linux distros use bash as the default shell.
-But there are many aftermarket alternative of cli shell for it.
+Most of GNU/Linux distros use bash as the default terminal shell.
+But there are many aftermarket alternatives of cli shell for it.
 And my favourite is fish, the friendly interactive shell.
-Some of my favourite features of fish are..
+Some of my favourite features of fish are:
 
 - **Command suggestion**, usually based on history. Hit right arrow or Ctrl+F to complete it.
 {{< figure src="https://u.cubeupload.com/addy15/suggestion.png" >}}
@@ -136,9 +136,9 @@ alias merge "xrdb ~/.Xresources"
 set fish_key_bindings fish_default_key_bindings
 {{< /highlight >}}
 
-On the left shell prompt, I only put current working directory.
-I dont need username and host information, because I only use this machine locally
-& only have one user. On the right shell prompt I add clock to measure
+On the left shell prompt, I only put the current working directory.
+I don't need the username and host information, because I only use this machine locally
+& only have one user. On the right shell prompt I add a clock to measure
 how long a command is executed. I set the hightlight of command that's not available
 in the system (which means error) to yellow to avoid typo.
 Maybe my fish configuration is not suitable for you.

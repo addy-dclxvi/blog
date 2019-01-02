@@ -15,16 +15,19 @@ reward: true
 {{< figure src="/image/me-small.png" link="/image/me.png" >}}
 
 ## Introduction
-Hi! I'm Addy
+Hi! I'm Addy!
 
-Just a student, a worker, and a Linux Enthusiast.
-I love metal, cat, linux, playing guitar, design, customizing desktop, more metal,
-reading, climbing mountain, fishing, watching movie, anime, and even more metal.
+Just a student, a worker, and a Linux Enthusiast. I love metal, cat, linux, playing guitar, design,
+customizing desktop, more metal, reading, climbing mountain, fishing, watching movie, anime, and
+even more metal. I write articles in this blog when I have some freetime and not lazy. I write
+some knowledges I have about Linux, and probably I will also expand the theme of this blog with
+my adventures in my life. I hope this blog will be useful for everyone. This "about me" page is
+just filled with my boring profile.
 
-My favourite band is Dream Theater. Favourite GNU/Linux distro, Debian.
-Favourite movie director, Christopher Nolan. Favourite book, A Study in Scarlet.
-Favourite anime, Fullmetal Alchemist. Favourite album, Metropolis Part 2 :
-Scenes from a Memory. Favourite window manager, Openbox.
+By the way, my favourite band is Dream Theater. My favourite GNU/Linux distro is Debian. My
+favourite movie director is Christopher Nolan. My favourite book is A Study in Scarlet. My
+favourite anime is Fullmetal Alchemist. My favourite album is Metropolis Part 2 : Scenes from a
+Memory. My favourite window manager is Openbox. And my favourite food is Sate Kambing.
 
 ## Interest
 - **Movies** Fight Club, Inception, The Dark Knight, Se7en, The Prestige,
@@ -58,15 +61,21 @@ Rocker Juga Manusia, Dramatic Turn of Events, *etc* *etc*
 - **TV Shows** Sherlock, Cosmos: A Spacetime Odyssey, Rick And Morty, Mr.Robot,
 Avatar: The Last Airbender, *etc* *etc*
 
-## Disclaimer
-Despite of my GitHub username is **dclxvi**, I'm not a satanic
-
-# Friend Site
-- [aflasio](https://aflasio.com/)
-- [bandithijo](https://bandithijo.com/)
+## Friend Site
 - [epsi-rns](https://epsi-rns.gitlab.io/)
 - [fikriomar](https://github.com/fikriomar16/)
+- [aflasio](https://aflasio.com/)
 - [jerukitumanis](https://github.com/jerukitumanis/)
-- [yuune](https://yuune.github.io/)
+- [yuune](https://okitavera.github.io/)
 - [reorr](https://github.com/reorr/)
+- [bandithijo](https://bandithijo.com/)
+- [kitcat](https://drzaln.github.io)
+- [ypraw](https://ypraw.github.io/)
+- [habib](https://hHabib-mustofa.com)
+
+## Disclaimer
+Despite of my GitHub username contains **dclxvi**, I'm not a satanic
+
+## Privacy
+The privacy policy of this blog is available [here](/privacy.html).
 
