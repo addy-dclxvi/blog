@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2018-11-26
-lastmod: 2018-11-26
+lastmod: 2019-01-11
 menu: "main"
 keyword: "Addy's profile"
 description: "My short profile just in case you are wonder about who am I"
@@ -61,7 +61,7 @@ Rocker Juga Manusia, Dramatic Turn of Events, *etc* *etc*
 - **TV Shows** Sherlock, Cosmos: A Spacetime Odyssey, Rick And Morty, Mr.Robot,
 Avatar: The Last Airbender, *etc* *etc*
 
-## Friend Site
+## Friend Sites
 - [epsi-rns](https://epsi-rns.gitlab.io/)
 - [fikriomar](https://github.com/fikriomar16/)
 - [aflasio](https://aflasio.com/)
@@ -76,6 +76,13 @@ Avatar: The Last Airbender, *etc* *etc*
 ## Disclaimer
 Despite of my GitHub username contains **dclxvi**, I'm not a satanic
 
+## Source Code
+This blog is open-source! The source code is available in
+[My GitHub Repository](https://github.com/addy-dclxvi/blog).
+Built using Hugo with Jane Theme.
+
 ## Privacy
 The privacy policy of this blog is available [here](/privacy).
 
+## Contact Me
+Available in the footer.
