@@ -1,7 +1,7 @@
 ---
 title: "Using Conky to Generate Lemonbar Statusline"
 date: 2018-12-19T17:18:27+07:00
-lastmod: 2018-12-19T17:18:27+07:00
+lastmod: 2019-01-11T19:20:27+07:00
 draft: false
 keywords: ["linux", "ricing", "lemonbar", "conky", "panel", "statusbar", "statusline"]
 description: "A guide about how to use Conky to generate statusline for Lemonbar"
@@ -27,7 +27,7 @@ sudo apt-get install lemonbar
 
 It just a bar. It doesn't come with any module like in Polybar by default. To make it shows
 the content we want, we have to create the text of it then pipe it to Lemonbar. For example, If
-you want to display "abcdef" text in Lemonbar, you have to do..
+you want to display "abcdef" text in Lemonbar, you have to do:
 
 ```shell
 echo "abcdef" | lemonbar -p
@@ -39,7 +39,7 @@ Then it will show a bar with "abcdef" text in your desktop
 `-p` flag means don't close the bar after the stdin is closed
 {{% /notice %}}
 
-Want it to show the time? You have to do..
+Want it to show the time? You have to do:
 
 ```shell
 date +"%a %-d %b at %H:%M:%S" | lemonbar -p
@@ -58,9 +58,9 @@ Because it's infinity loops, Lemonbar wouldn't be closed even though without `-p
 
 Lemonbar itself very lightweight, the resource usage depends on the shell script you made.
 The example above only executing a shell script to display the time, so it won't cause any
-noticeable CPU load. But when I try to create a shell script to display clock, current track of
-ncmpcpp, wifi ssid, alsa  volume, and some other items with spamming cat, grep, awk, print,
-head, tail, and sed.. Both CPU & RAM usage increased, which is defeating the purpose of
+noticeable CPU load. But when I tried to create a shell script to display clock, current track of
+ncmpcpp, wifi ssid, alsa  volume, and some other items with spamming *cat*, *grep*, *awk*, *print*,
+*head*, *tail*, and *sed*, both CPU & RAM usage increased, which is defeating the purpose of
 using a featherweight bar. So, I try to replace the shell script with Conky. Despite it has a lot
 of limitations, I'm quite happy with the results.
 

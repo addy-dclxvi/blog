@@ -77,5 +77,5 @@ Avatar: The Last Airbender, *etc* *etc*
 Despite of my GitHub username contains **dclxvi**, I'm not a satanic
 
 ## Privacy
-The privacy policy of this blog is available [here](/privacy.html).
+The privacy policy of this blog is available [here](/privacy).
 
