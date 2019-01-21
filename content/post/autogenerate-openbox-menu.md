@@ -3,7 +3,7 @@ title: "Automatically Generate Openbox Applications Menu"
 date: 2018-11-27T18:44:21+07:00
 lastmod: 2018-11-27T18:44:21+07:00
 draft: false
-keywords: ["openbox", "debian", "linux", "menu", "ricing", "lxmenu"]
+keywords: ["openbox", "debian", "linux", "menu", "ricing", "lxmenu", "debian", "minimal"]
 description: "Automatically Generate Openbox Applications Menu Using LXMenu Data on Debian"
 tags: ["openbox", "debian", "linux", "menu", "ricing", "lxmenu"]
 categories: ["Linux"]

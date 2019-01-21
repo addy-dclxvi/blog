@@ -3,7 +3,7 @@ title: "Configuring URxvt to Make It Usable and Less Ugly"
 date: 2018-11-30T21:44:11+07:00
 lastmod: 2018-12-10T18:44:11+07:00
 draft: false
-keywords: ["linux", "ricing", "terminal", "urxvt"]
+keywords: ["linux", "ricing", "terminal", "urxvt", "debian", "minimal"]
 description: "A guide about installing URxvt terminal emulator to make it usable and less ugly"
 tags: ["linux", "ricing", "terminal", "urxvt"]
 categories: ["Linux"]

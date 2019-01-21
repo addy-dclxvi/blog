@@ -3,7 +3,7 @@ title: "My Fluxbox Configurations"
 date: 2018-12-16T10:45:56+07:00
 lastmod: 2018-12-16T10:45:56+07:00
 draft: false
-keywords: ["linux", "ricing", "fluxbox", "guide", "configurations"]
+keywords: ["linux", "ricing", "fluxbox", "guide", "configurations", "debian", "minimal"]
 description: "Explanation of my Fluxbox Configurations and how to use it"
 tags: ["linux", "ricing", "fluxbox"]
 categories: ["Linux"]

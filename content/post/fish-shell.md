@@ -3,7 +3,7 @@ title: "Fish, The Friendly Interactive Shell"
 date: 2018-11-30T18:16:14+07:00
 lastmod: 2018-11-30T18:16:14+07:00
 draft: false
-keywords: ["linux", "ricing", "terminal", "shell"]
+keywords: ["linux", "ricing", "terminal", "shell", "debian", "minimal"]
 description: "How to install and configure fish, the friendly interactive shell"
 tags: ["linux", "ricing", "terminal", "shell"]
 categories: ["Linux"]

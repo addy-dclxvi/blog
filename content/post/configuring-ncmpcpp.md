@@ -3,7 +3,7 @@ title: "My Way of Configuring Ncmpcpp Music Player"
 date: 2018-12-01T21:34:30+07:00
 lastmod: 2018-12-01T21:34:30+07:00
 draft: false
-keywords: ["linux", "ricing", "music", "ncmpcpp", "terminal"]
+keywords: ["linux", "ricing", "music", "ncmpcpp", "terminal", "debian", "minimal"]
 description: "My simple way how to setup ncmpcpp music player"
 tags: ["linux", "ricing", "music", "ncmpcpp", "terminal"]
 categories: ["Linux"]

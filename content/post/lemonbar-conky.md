@@ -3,7 +3,8 @@ title: "Using Conky to Generate Lemonbar Statusline"
 date: 2018-12-19T17:18:27+07:00
 lastmod: 2019-01-11T19:20:27+07:00
 draft: false
-keywords: ["linux", "ricing", "lemonbar", "conky", "panel", "statusbar", "statusline"]
+keywords: ["linux", "ricing", "lemonbar", "conky", "panel", "statusbar", "statusline",
+"debian", "minimal"]
 description: "A guide about how to use Conky to generate statusline for Lemonbar"
 tags: ["linux", "ricing", "lemonbar", "conky", "panel"]
 categories: ["Linux"]

@@ -3,7 +3,7 @@ title: "Dunst, A Simple And Lightweight Notification Daemon"
 date: 2018-12-02T13:19:24+07:00
 lastmod: 2018-12-10T13:18:38+07:00
 draft: false
-keywords: ["linux", "ricing", "dunst", "notification", "minimal"]
+keywords: ["linux", "ricing", "dunst", "notification", "minimal", "debian"]
 description: "A guide about how to install and configuring Dunst, the minimal notification"
 tags: ["linux", "ricing", "dunst", "notification", "minimal"]
 categories: ["Linux"]
