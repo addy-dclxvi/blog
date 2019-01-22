@@ -3,7 +3,8 @@ title: "Several Custom Bitmap Fonts"
 date: 2018-12-06T20:56:34+07:00
 lastmod: 2018-12-10T19:25:34+07:00
 draft: false
-keywords: ["linux", "ricing", "font", "aesthetic", "openbox", "readable", "debian", "minimal" ]
+keywords: ["linux", "ricing", "font", "aesthetic", "openbox", "readable", "debian", "minimal", 
+"guide" ]
 description: "Several bitmap fonts I modify from M+, Tewi, Lemon, &  Siji, and guide how to use it"
 tags: ["linux", "ricing", "font"]
 categories: ["Linux"]

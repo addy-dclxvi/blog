@@ -3,7 +3,7 @@ title: "Scrot, A Simple Screenshot Taking App"
 date: 2019-01-15T19:44:16+07:00
 lastmod: 2019-01-15T19:44:16+07:00
 draft: false
-keywords: ["linux", "ricing", "scrot", "screenshot", "debian", "minimal"]
+keywords: ["linux", "ricing", "scrot", "screenshot", "debian", "minimal", "guide"]
 description: "A guide how to install, use, and utilize  scrot, a simple screenshot taking app"
 tags: ["linux", "ricing"]
 categories: ["Linux"]

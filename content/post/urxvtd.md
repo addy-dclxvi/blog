@@ -4,7 +4,7 @@ date: 2019-01-21T20:28:52+07:00
 lastmod: 2019-01-21T20:28:52+07:00
 draft: false
 keywords: ["linux", "ricing", "urxvt", "urxvtd", "urxvtc", "daemon", "terminal", "efficient",
-"debian"]
+"debian", "guide"]
 description: "Use daemon mode in URxvt to decrease the resources usage of several instance of
 terminals, also how to register URxvtc to Debian Alternatives entry"
 tags: ["linux", "ricing", "urxvt"]
