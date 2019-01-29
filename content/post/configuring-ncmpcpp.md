@@ -93,9 +93,9 @@ Okay, back to the mpd configuration.
 Replace *addy* in line number 3 to 6 with your own username.
 Just in case you forgot your username, you could get it using `whoami` command.
 I use PulseAudio for my sound. If you're using pure ALSA,
-try to replace the line number 60 to 63 with..
+try to replace the line number 8 to 11 with..
 
-{{< highlight conf "linenos=table,linenostart=60" >}}
+{{< highlight conf "linenos=table,linenostart=8" >}}
 audio_output {
 type "alsa"
 name "alsa for audio soundcard"
