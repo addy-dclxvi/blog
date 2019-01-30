@@ -48,11 +48,7 @@ sudo apt-get install openbox suckless-tools compton hsetroot xsettingsd lxappear
 
 - Compton is a compositor to provide some desktop effects like shadow, transparency, fade, and 
 transiton.
-- Hsetroot is a wallpaper handler. Openbox has no wallpaper handler by default. Openbox comes with
-`fbsetroot` & `fbsetbg` by default. But they are not an actual wallpaper handler. They are just
-wrapper scripts to find any wallpaper handler available and use it as fluxbox wallpaper handler.
-When I install Debian, I start from minimal install. So, I don't have any wallpaper handler that
-support JPG/PNG by default. So, I choose `hsetroot`.
+- Hsetroot is a wallpaper handler. Openbox has no wallpaper handler by default.
 - Suckless Tools are several utility made by [suckless.org](https://suckless.org), but actually I
 only need `dmenu`. Unfortunately the package is not splitted, so I need to pull them all.
 - Xsettingsd is a simple settings daemon to load fontconfig and some other options. Without this,
