@@ -139,5 +139,11 @@ website then instantly available at https://addy-dclxvi.github.io/
 
 {{< figure src="https://u.cubeupload.com/addy15/hugoblog.png" >}}
 
+{{% notice info %}} 
+I add **public** folder to
+[.gitignore](https://github.com/addy-dclxvi/blog/blob/master/.gitignore),
+in the **blog** repository, because the source code repository don't need the generated html.
+{{% /notice %}}
+
 ## End
 And as always, thanks for reading!

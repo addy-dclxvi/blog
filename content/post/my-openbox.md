@@ -1,7 +1,7 @@
 ---
 title: "My Openbox Configurations"
 date: 2019-01-29T20:42:05+07:00
-lastmod: 2019-01-29T20:42:05+07:00
+lastmod: 2019-01-30T21:00:00+07:00
 draft: false
 keywords: ["linux", "ricing", "openbox", "guide", "configurations", "debian", "minimal", "guide"]
 description: "Explanation of my Openbox Configurations and how to use it"
@@ -143,6 +143,13 @@ Remains the same as in the previouses articles.
 {{< figure src="https://u.cubeupload.com/addy15/myopenboxmenu.png" >}}
 
 {{< figure src="https://u.cubeupload.com/addy15/myopenboxvim.png" >}}
+
+{{< figure src="https://u.cubeupload.com/addy15/myopenboxpalemoon.png" >}}
+
+## Random Video
+I can't speak English well, so I write a caption. Please enable it.
+
+{{< youtube id="NMRxk60_r50" autoplay="false" >}}
 
 ## End
 And as always, thanks for reading!
